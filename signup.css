@@ -1,0 +1,101 @@
+:root {
+    --dark-color: #070707;
+    --dark-gray: #40434e;
+    --primary-color: #84bc9c;
+    --light-color: #fffdf7;
+    --accent-color: #bd6873;
+  }
+  
+  body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--light-color);
+    color: var(--dark-color);
+  }
+  
+  /* Card styling */
+  .signup-card {
+    border: none;
+    border-radius: 15px;
+    overflow: hidden;
+  }
+  
+  .left-panel {
+    background-color: var(--primary-color);
+    color: var(--light-color);
+  }
+  
+  .right-panel {
+    background-color: var(--light-color);
+  }
+  
+  /* Form styling */
+  .form-label {
+    color: var(--dark-gray);
+    font-weight: 500;
+  }
+  
+  .form-control {
+    border: 1px solid #e2e8f0;
+    padding: 0.75rem;
+    border-radius: 6px;
+  }
+  
+  .form-control:focus {
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 0.25rem rgba(132, 188, 156, 0.25);
+  }
+  
+  .form-control.is-invalid {
+    border-color: var(--accent-color);
+  }
+  
+  .invalid-feedback {
+    color: var(--accent-color);
+    font-size: 0.875rem;
+  }
+  
+  /* Button styling */
+  .btn-primary {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+    color: var(--light-color);
+  }
+  
+  .btn-primary:hover,
+  .btn-primary:focus {
+    background-color: rgba(132, 188, 156, 0.9);
+    border-color: rgba(132, 188, 156, 0.9);
+  }
+  
+  .btn-primary:focus {
+    box-shadow: 0 0 0 0.25rem rgba(132, 188, 156, 0.25);
+  }
+  
+  /* Link styling */
+  .link-primary {
+    color: var(--primary-color);
+    text-decoration: none;
+  }
+  
+  .link-primary:hover {
+    text-decoration: underline;
+  }
+  
+  /* Alert styling */
+  .alert-success {
+    background-color: rgba(132, 188, 156, 0.2);
+    border-color: rgba(132, 188, 156, 0.3);
+    color: var(--primary-color);
+  }
+  
+  /* Text colors */
+  .text-muted {
+    color: #64748b !important;
+    
+  }
+  
+  h2 {
+    color: var(--dark-gray);
+  }
+  
+  
